@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Transfer Termahal Liga Indonesia</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff;
+            color: #1e293b;
+            margin: 0;
+            padding-bottom: 0px;
+        }
+
+        header {
+            background: linear-gradient(90deg, #02102d, #2a0b7e);
+            padding: 30px 20px 20px 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            margin: 0 0 15px 0;
+            font-size: 32px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        /* --- STYLING NAVIGASI UTAMA --- */
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .nav-btn {
+            color: #ffffff;
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
+        .nav-btn:hover {
+            background: #38bdf8;
+            color: #02102d;
+            font-weight: 700;
+            border-color: #38bdf8;
+            box-shadow: 0 0 12px rgba(56,189,248,0.5);
+        }
+
+        .nav-btn.active {
+            background: #38bdf8;
+            color: #02102d;
+            font-weight: 700;
+            border-color: #38bdf8;
+        }
+
+        .container {
+            padding: 30px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .intro {
+            text-align: center;
+            color: #334155;
+            max-width: 750px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            margin: 20px 0;
+            padding: 24px;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: #2563eb;
+            box-shadow: 0 12px 25px rgba(37,99,235,0.15);
+        }
+
+        .player {
+            font-size: 22px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        .player-img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 12px 0;
+            display: block;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .price {
+            font-size: 15px;
+            font-weight: 600;
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+
+        .desc {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #334155;
+            margin-bottom: 14px;
+        }
+
+        .achievements {
+            background: #ffffff;
+            padding: 12px 16px;
+            border-radius: 10px;
+            border-left: 4px solid #b91c1c;
+            font-size: 13px;
+            line-height: 1.6;
+            color: #475569;
+        }
+
+        .achievements strong {
+            color: #0f172a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px 20px;
+            font-size: 14px;
+            color: #ffffff;
+            background-color: #b91c1c; /* Footer Merah */
+            margin-top: 40px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1> Top 10 Transfer Termahal Liga Indonesia</h1>
+    
+    <!-- Navigasi Antar Halaman -->
+    <nav class="nav-menu">
+        <a href="index.html" class="nav-btn">🏠 Beranda (All-Time)</a>
+        <a href="liga-eropa.html" class="nav-btn">🇪🇺 Liga Eropa</a>
+        <a href="liga-indonesia.html" class="nav-btn active">🇮🇩 Liga Indonesia</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <p class="intro">
+        Mari kita bedah data All-Time (Sepanjang Masa) untuk Transfer Termahal dalam Sejarah Liga Indonesia. 
+        Meskipun mayoritas klub mendatangkan pemain lewat jalur bebas agen, rekor kepindahan resmi yang melibatkan kompensasi tebusan antarklub dan investasi nilai kontrak di bawah ini menjadi catatan sejarah paling fenomenal di tanah air.
+    </p>
+
+    <!-- Peringkat 10 -->
+    <div class="card">
+        <div class="player">10. Gilbert Álvarez</div>
+        <img src="images/gilbert_alvarez.jpg" alt="Gilbert Álvarez" class="player-img">
+        <div class="price">💰 Rp8,69 Miliar (Palmaflor ➡️ Arema FC)</div>
+        <div class="desc">
+            Pada November 2023, Arema FC mengejutkan publik dengan menebus sisa kontrak striker Timnas Bolivia, Gilbert Álvarez, dari Palmaflor dengan taksiran biaya transfer sekitar Rp8,69 Miliar. Ia didatangkan pada bursa transfer paruh musim untuk menggantikan posisi Gustavo Almeida yang hengkang ke Persija. Perjalanan kariernya di Indonesia tergolong singkat dan penuh tantangan berat karena Arema sedang berjuang di papan bawah. Meski menunjukkan kerja keras, Álvarez kesulitan mereplikasi ketajamannya di Amerika Selatan dan akhirnya sepakat mengakhiri kerja sama lebih cepat karena alasan keluarga.
+        </div>
+        <div class="achievements">
+            📌 <strong>Kesuksesan Klub:</strong> Berhasil membantu Arema FC keluar secara dramatis dari zona degradasi di pekan-pekan akhir liga.<br>
+            ⭐ <strong>Kesuksesan Individu:</strong> Mencetak 2 gol dalam 11 penampilan sebelum memutus kontraknya.
+        </div>
+    </div>
+
+    <!-- Peringkat 9 -->
+    <div class="card">
+        <div class="player">9. Hanno Behrens</div>
+        <img src="images/hanno_behrens.jpg" alt="Hanno Behrens" class="player-img">
+        <div class="price">💰 Rp3,48 Miliar / €200 Ribu (Hansa Rostock ➡️ Persija Jakarta)</div>
+        <div class="desc">
+            Persija Jakarta merogoh kocek cukup dalam pada Juli 2022 demi menebus Hanno Behrens dari klub Jerman, Hansa Rostock, seharga Rp3,48 Miliar (€200 Ribu) atas permintaan pelatih Thomas Doll. Kedatangan gelandang Jerman ini menandai proyek ambisius berbau Eropa di ibu kota. Behrens langsung menjadi idola baru Jakmania berkat visi bermain kelas tinggi dan fleksibilitas taktiknya. Momen ikonik utamanya adalah mencetak gol-gol krusial dari lini kedua di awal musim yang mengangkat posisi Persija ke papan atas. Sayangnya, masalah kesehatan pencernaan dan proses aklimatisasi cuaca yang buruk mengganggu konsistensinya di paruh kedua musim.
+        </div>
+        <div class="achievements">
+            📌 <strong>Kesuksesan Klub:</strong> Membantu Persija Jakarta finis sebagai Runner-up Liga 1 musim 2022/2023.<br>
+            ⭐ <strong>Kesuksesan Individu:</strong> Mengemas 5 gol dalam 18 pertandingan di musim perdananya sebelum memilih kembali ke Jerman.
+        </div>
+    </div>
+
+    <!-- Peringkat 8 -->
+    <div class="card">
+        <div class="player">8. Maciej Gajos</div>
+        <img src="images/maciej_gajos.jpg" alt="Maciej Gajos" class="player-img">
+        <div class="price">💰 Rp4,35 Miliar / €250 Ribu (Lechia Gdańsk ➡️ Persija Jakarta)</div>
+        <div class="desc">
+            Persija Jakarta kembali melakukan tebusan transfer ekspatriat pada Juli 2023 dengan mengamankan tanda tangan gelandang asal Polandia, Maciej Gajos, dari Lechia Gdańsk senilai Rp4,35 Miliar (€250 Ribu). Proses transfer berjalan alot karena Gajos masih menjadi pilar utama di klub lamanya. Di bawah asuhan Thomas Doll, Gajos diplot sebagai dirigen lini tengah untuk mengatur ritme permainan tim Macan Kemayoran. Momen ikonik terbaiknya adalah eksekusi tendangan bebas melengkung yang mematikan serta assist-assist akurat dari bola mati yang kerap memecah kebuntuan tim dalam laga-laga besar.
+        </div>
+        <div class="achievements">
+            📌 <strong>Kesuksesan Klub:</strong> Menjaga stabilitas lini tengah Persija dan membawa tim melaju hingga babak Championship Series.<br>
+            ⭐ <strong>Kesuksesan Individu:</strong> Menjadi salah satu pemain asing dengan menit bermain paling konsisten dan pencetak assist bola mati utama klub.
+        </div>
+    </div>
+
+    <!-- Peringkat 7 -->
+    <div class="card">
+        <div class="player">7. Majed Osman</div>
+        <img src="images/majed_osman.jpg" alt="Majed Osman" class="player-img">
+        <div class="price">💰 Rp4,35 Miliar / €250 Ribu (Al-Ansar ➡️ Dewa United)</div>
+        <div class="desc">
+            Klub promosi kaya raya Dewa United menunjukkan kekuatan finansialnya pada Juli 2022 dengan menebus gelandang serang Timnas Lebanon, Majed Osman, dari Al-Ansar FC senilai Rp4,35 Miliar (€250 Ribu). Kontribusi Osman di lini tengah Dewa United berjalan sangat instan. Ia berkembang menjadi otak serangan tim, penjelajah ruang, dan motor serangan utama. Momen ikonik puncaknya adalah gol solorun indahnya saat mengobrak-abrik pertahanan tim-tim besar serta assist-assist visioner yang memanjakan lini depan Dewa United untuk bersaing di kasta tertinggi sepak bola nasional.
+        </div>
+        <div class="achievements">
+            📌 <strong>Kesuksesan Klub:</strong> Mengangkat performa Dewa United dari tim promosi semenjana hingga menembus papan atas Liga 1.<br>
+            ⭐ <strong>Kesuksesan Individu:</strong> Konsisten mencatatkan kontribusi dua digit gol dan assist selama masa baktinya bersama Tangsel Warriors.
+        </div>
+    </div>
+
+    <!-- Peringkat 6 -->
+    <div class="card">
+        <div class="player">6. Jajá / Hugo Gomes</div>
+        <img src="images/jaja.jpg" alt="Jajá Hugo Gomes" class="player-img">
+        <div class="price">💰 Rp5,22 Miliar / €300 Ribu (Madura United ➡️ Dewa United)</div>
+        <div class="desc">
+            Bursa transfer Liga 1 diguncang oleh Dewa United pada Juli 2024 ketika mereka menebus sisa komitmen dan mengamankan kontrak Hugo Gomes (Jajá) lewat biaya kompensasi senilai Rp5,22 Miliar (€300 Ribu). Gelandang elegan asal Brasil eks kapten Madura United ini merupakan salah satu playmaker terbaik di tanah air. Di Dewa United, ia langsung menyatu dalam skema taktik lini tengah mewah bersama Alexis Messidoro. Momen ikonik utamanya adalah gol-gol dari tendangan bebas melengkung kaki kiri yang akurat serta dominasinya dalam mendikte tempo permainan di lini tengah.
+        </div>
+        <div class="achievements">
+            📌 <strong>Kesuksesan Klub:</strong> Membuat lini tengah Dewa United ditakuti dan menjadi salah satu kandidat kuat juara liga.<br>
+            ⭐ <strong>Kesuksesan Individu:</strong> Menjaga reputasinya sebagai salah satu gelandang asing dengan operan kunci (key passes) terbanyak di Liga Indonesia.
+        </div>
+    </div>
+
+    <!-- Peringkat 5 -->
+    <div class="card">
+        <div class="player">5. Alexis Messidoro</div>
+        <img src="images/alexis_messidoro.jpg" alt="Alexis Messidoro" class="player-img">
+        <div class="price">💰 Rp6,10 Miliar / €350 Ribu (Persis Solo ➡️ Dewa United)</div>
+        <div class="desc">
+            Perpindahan yang memicu kontroversi besar terjadi pada Juli 2024 saat Dewa United menebus klausul pelepasan Alexis Messidoro dari Persis Solo senilai Rp6,10 Miliar (€350 Ribu). Messidoro adalah roh permainan Persis Solo sebelum ditebus oleh Dewa United. Gelandang asal Argentina ini dikenal memiliki kreativitas tak terbatas dan daya jelajah yang sangat tinggi. Momen ikonik pertamanya bersama klub baru adalah assist magis tanpa melihat (no-look pass) yang langsung membuahkan gol, membuktikan bahwa nilai transfer mahalnya sangat sepadan dengan kualitas di lapangan.
+        </div>
+        <div class="achievements">
+            📌 <strong>Kesuksesan Klub:</strong> Membawa Dewa United bertransformasi menjadi tim Los Galacticos Indonesia yang sangat atraktif.<br>
+            ⭐ <strong>Kesuksesan Individu:</strong> Konsisten bersaing di daftar papan atas pencetak assist terbanyak dalam satu musim liga.
+        </div>
+    </div>
+
+    <!-- Peringkat 4 -->
+    <div class="card">
+        <div class="player">4. Maxwell</div>
+        <img src="images/maxwell.jpg" alt="Maxwell" class="player-img">
+        <div class="price">💰 Rp5,46 Miliar / €314 Ribu (GD Chaves ➡️ Persija Jakarta)</div>
+        <div class="desc">
+            Persija Jakarta kembali memecahkan rekor transfer internal klub pada bursa transfer musim panas Juli 2025 dengan menebus winger lincah asal Brasil, Maxwell, dari klub Portugal GD Chaves senilai Rp5,46 Miliar (€314 Ribu). Pemain sayap yang memiliki kecepatan eksplosif ini didatangkan untuk menghidupkan kembali kreativitas penyerangan sayap Macan Kemayoran yang sempat lesu. Momen ikonik puncaknya adalah gol penentu kemenangan dalam laga klasik melawan Persib Bandung lewat skema serangan balik cepat yang langsung membuatnya dicintai oleh publik Jakarta.
+        </div>
+        <div class="achievements">
+            📌 <strong>Kesuksesan Klub:</strong> Membawa Persija Jakarta kembali bersaing di jalur perebutan gelar juara Liga 1.<br>
+            ⭐ <strong>Kesuksesan Individu:</strong> Menjadi pemain sayap dengan rekor dribel sukses tertinggi di kompetisi.
+        </div>
+    </div>
+
+    <!-- Peringkat 3 -->
+    <div class="card">
+        <div class="player">3. Sergio van Dijk</div>
+        <img src="images/sergio_van_dijk.jpg" alt="Sergio van Dijk" class="player-img">
+        <div class="price">💰 Rp6,96 Miliar / €400 Ribu (Adelaide United ➡️ Persib Bandung)</div>
+        <div class="desc">
+            Pada Januari 2013 (diperhitungkan sebagai salah satu kompensasi kepindahan all-time terbaik), Persib Bandung memecahkan rekor nasional kala itu dengan menebus striker naturalisasi Sergio van Dijk dari klub Australia, Adelaide United, senilai Rp6,96 Miliar (€400 Ribu). Kedatangan bomber plontos ini disambut histeria luar biasa oleh bobotoh. Van Dijk langsung tampil meledak sejak laga debutnya dengan naluri gol yang sangat mematikan. Momen ikonik yang paling membekas adalah rentetan gol sundulan bertenaga dan tendangan jarak jauh roketnya yang membawa Persib merangkak naik memecah dominasi papan atas liga saat itu.
+        </div>
+        <div class="achievements">
+            📌 <strong>Kesuksesan Klub:</strong> Membawa Persib Bandung finis di peringkat 4 besar dan membangun pondasi skuad juara untuk musim-musim berikutnya.<br>
+            ⭐ <strong>Kesuksesan Individu:</strong> Mencetak 21 gol dalam satu musim, menyamai rekor gol terbanyak dalam sejarah semusim klub milik Sutiono Lamso.
+        </div>
+    </div>
+
+    <!-- Peringkat 2 -->
+    <div class="card">
+        <div class="player">2. Michael Essien</div>
+        <img src="images/michael_essien.jpg" alt="Michael Essien" class="player-img">
+        <div class="price">💰 Contract Value Rp11 M - Rp15 M (Free Transfer ➡️ Persib Bandung)</div>
+        <div class="desc">
+            Persib Bandung mengguncang panggung sepak bola dunia pada Maret 2017 dengan mendatangkan mantan bintang Chelsea dan Real Madrid, Michael Essien. Meskipun status kepindahannya bebas transfer (free agent), Essien memecahkan rekor sejarah sepak bola Indonesia sebagai kontrak investasi termahal sepanjang masa dengan nilai kontrak/gaji mencapai Rp11 Miliar - Rp15 Miliar per musim. Kehadirannya melahirkan fenomena Marquee Player di tanah air. Momen ikonik yang tak terlupakan adalah gol sundulannya ke gawang PS TNI yang digemakan media internasional, serta aksi jenakanya saat mengejar Yanto Basna memakai sepeda saat latihan.
+        </div>
+        <div class="achievements">
+            📌 <strong>Kesuksesan Klub:</strong> Menaikkan nilai komersial, penjualan merchandise, serta sorotan media internasional terhadap klub Persib Bandung ke level tertinggi dalam sejarah.<br>
+            ⭐ <strong>Kesuksesan Individu:</strong> Tampil dalam 29 laga dan mengemas 5 gol, menjadi jangkar lini tengah yang memberikan pelajaran berharga bagi pemain-pemain lokal.
+        </div>
+    </div>
+
+    <!-- Peringkat 1 -->
+    <div class="card">
+        <div class="player">1. Matheus Pato</div>
+        <img src="images/matheus_pato.jpg" alt="Matheus Pato" class="player-img">
+        <div class="price">💰 Rp17,38 Miliar / €1,00 Juta (Borneo FC ➡️ Shandong Taishan)</div>
+        <div class="desc">
+            Rekor finansial tertinggi dan paling tidak tertandingi dalam sejarah Liga Indonesia terjadi pada Juli 2023 saat klub raksasa China, Shandong Taishan, menebus klausul pelepasan (release clause) striker Borneo FC, Matheus Pato, senilai Rp17,38 Miliar (€1,00 Juta). Ini adalah rekor kepindahan termahal dalam sejarah karena melibatkan dana tunai segar masuk ke klub Indonesia dalam jumlah masif. Pato adalah mesin gol menakutkan yang baru saja membawa Borneo FC disegani. Momen ikonik perpisahannya yang emosional di Stadion Segiri menyisakan kebanggaan bagi Pesut Etam karena berhasil mengekspor striker tersubur liga ke kompetisi kasta tertinggi Asia dengan nilai luar biasa.
+        </div>
+        <div class="achievements">
+            📌 <strong>Kesuksesan Klub:</strong> Memberikan keuntungan finansial (dana segar) terbesar sepanjang sejarah bagi klub sepak bola Indonesia untuk berinvestasi jangka panjang pada fasilitas dan akademi.<br>
+            ⭐ <strong>Kesuksesan Individu:</strong> Meraih gelar Top Skor Liga 1 2022/2023 dengan 25 gol, sebelum memecahkan rekor komoditas penjualan termahal sejarah liga.
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 - Football Insight ⚽ | Tugas Pemrograman Web
+</footer>
+
+</body>
+</html>
