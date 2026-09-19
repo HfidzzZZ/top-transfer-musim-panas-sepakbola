@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterpiece Bursa Transfer: 10 Rekrutan Musim Panas Terbaik Sepanjang Masa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ffffff;
+            border-bottom: 2px solid #e2e8f0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-family: 'Poppins', sans-serif;
+            font-size: 26px;
+            font-weight: 900;
+            color: #0f172a;
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 12px;
+        }
+
+        .nav-btn {
+            background-color: #0f172a;
+            color: #ffffff;
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .nav-btn:hover {
+            background-color: #22c55e;
+            color: #ffffff;
+        }
+
+        .hero-banner {
+            background-color: #86efac;
+            padding: 50px 20px;
+            border-bottom: 1px solid #4ade80;
+        }
+
+        .hero-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .category-badge {
+            display: inline-block;
+            background-color: #000000;
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 800;
+            padding: 5px 12px;
+            border-radius: 12px;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+
+        .hero-title {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 38px;
+            font-weight: 900;
+            line-height: 1.25;
+            color: #000000;
+            margin-bottom: 14px;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            font-weight: 600;
+            color: #14532d;
+            margin-bottom: 20px;
+        }
+
+        .hero-date {
+            font-size: 13px;
+            color: #166534;
+            font-weight: 500;
+        }
+
+        .main-content {
+            max-width: 760px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .transfer-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 28px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border: 1px solid #e2e8f0;
+        }
+
+        .item-header {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 26px;
+            font-weight: 700;
+            font-style: italic;
+            color: #000000;
+            margin-bottom: 18px;
+            line-height: 1.3;
+        }
+
+        .item-number {
+            color: #7c3aed;
+            font-style: normal;
+            font-weight: 900;
+            margin-right: 4px;
+        }
+
+        .player-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .image-caption {
+            font-size: 12px;
+            color: #64748b;
+            font-style: italic;
+            margin-top: 8px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 15px;
+            color: #334155;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .achievement-box {
+            background-color: #f1f5f9;
+            border-left: 4px solid #16a34a;
+            padding: 16px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 16px;
+        }
+
+        .achievement-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #15803d;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .achievement-text {
+            font-size: 14px;
+            color: #334155;
+            margin-bottom: 10px;
+        }
+
+        .achievement-text:last-child {
+            margin-bottom: 0;
+        }
+
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #4ade80;
+            text-decoration: none;
+        }
+
+        @media (max-width: 640px) {
+            .hero-title {
+                font-size: 28px;
+            }
+            .hero-subtitle {
+                font-size: 16px;
+            }
+            .item-header {
+                font-size: 21px;
+            }
+            .transfer-card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">100%BallKnowledge</a>
+            <nav class="nav-links">
+                <a href="liga-indonesia.html" class="nav-btn">Liga Indonesia</a>
+                <a href="liga-eropa.html" class="nav-btn">Liga Eropa</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-banner">
+        <div class="hero-container">
+            <span class="category-badge">FOOTBALL</span>
+            <h1 class="hero-title">MASTERPIECE BURSA TRANSFER: 10 REKRUTAN MUSIM PANAS TERBAIK SEPANJANG MASA</h1>
+            <p class="hero-subtitle">Peringkat sepuluh investasi bursa transfer paling sukses sepanjang sejarah</p>
+            <p class="hero-date">Updated on Sep 18, 2026</p>
+        </div>
+    </section>
+
+    <main class="main-content">
+
+        <article class="transfer-card">
+            <h2 class="item-header"><span class="item-number">10.</span> Andrea Pirlo (AC Milan ➡️ Juventus)</h2>
+            <img src="images/pirlo.jpg" alt="Andrea Pirlo" class="player-image">
+            <p class="image-caption">© Juventus FC / Getty Images</p>
+            <p class="description">Setelah dianggap sudah habis oleh AC Milan, Andrea Pirlo pindah ke Juventus secara gratis (Free Transfer) pada Juli 2011. Kepindahan ini menjadi salah satu penyesalan terbesar Milan dan keuntungan luar biasa bagi Juventus. Pirlo langsung didapuk menjadi jenderal lini tengah dalam taktik Antonio Conte, mengubah Juventus yang sebelumnya finis di peringkat ke-7 menjadi tim yang tak terkalahkan sepanjang musim. Momen ikonik terbaiknya adalah umpan-umpan vertikalnya yang membelah pertahanan lawan, gol tendangan bebas jarak jauh yang magis, serta ketenangannya mendikte permainan yang mengawali era dominasi absolut Juventus di Italia.</p>
+            <div class="achievement-box">
+                <div class="achievement-title">Kesuksesan & Prestasi</div>
+                <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 4x Serie A, 1x Coppa Italia, 2x Supercoppa Italiana.</p>
+                <p class="achievement-text"><strong>Kesuksesan Individu:</strong> 3x Serie A Footballer of the Year (2012, 2013, 2014), 1x Masuk UEFA Team of the Year 2012, serta menjadi arsitek kebangkitan era modern Juventus.</p>
+            </div>
+        </article>
+
+        <article class="transfer-card">
+            <h2 class="item-header"><span class="item-number">9.</span> Erling Haaland (Borussia Dortmund ➡️ Man City)</h2>
+            <img src="images/haaland.jpg" alt="Erling Haaland" class="player-image">
+            <p class="image-caption">© Manchester City / Getty Images</p>
+            <p class="description">Manchester City mengaktifkan klausul rilis Erling Haaland pada Juli 2022 dengan membayar £51,2 juta (€60 juta) ke Dortmund, sebuah harga yang terhitung murah untuk penyerang kelas dunia. Haaland langsung menjadi kepingan taktik terakhir yang dicari oleh Pep Guardiola untuk mendominasi Eropa. Ia menghancurkan rekor-rekor gol di musim pertamanya dan memberikan dampak instan pada ketajaman lini serang City. Momen ikonik utamanya adalah mencetak 5 gol dalam satu laga UCL melawan RB Leipzig, serta gol-gol krusial di liga yang memastikan City menyalip Arsenal untuk mengunci gelar juara domestik dan Eropa.</p>
+            <div class="achievement-box">
+                <div class="achievement-title">Kesuksesan & Prestasi</div>
+                <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 2x Premier League, 1x Liga Champions, 1x FA Cup, 1x Piala Super Eropa, 1x Piala Dunia Antarklub (Termasuk 1x Treble Winner 2023).</p>
+                <p class="achievement-text"><strong>Kesuksesan Individu:</strong> Memecahkan rekor gol terbanyak Premier League dalam satu musim (36 gol), 1x Sepatu Emas Eropa, 1x Gerd Müller Trophy 2023, 1x Top Skor Liga Champions.</p>
+            </div>
+        </article>
+
+        <article class="transfer-card">
+            <h2 class="item-header"><span class="item-number">8.</span> Mohamed Salah (AS Roma ➡️ Liverpool)</h2>
+            <img src="images/salah.jpg" alt="Mohamed Salah" class="player-image">
+            <p class="image-caption">© Liverpool FC / Getty Images</p>
+            <p class="description">Pada Juni 2017, Liverpool mendatangkan Mohamed Salah dengan biaya £36,5 juta yang awalnya sempat diragukan karena kegagalannya di Chelsea dulu. Namun, Salah langsung membungkam kritik dengan mencetak rekor gol luar biasa di musim debutnya. Ia menjadi pilar paling penting dalam taktik gegenpressing Jurgen Klopp yang mengembalikan Liverpool ke peta kekuatan dunia. Momen ikonik terbaiknya meliputi gol solo menawan melawan Manchester City dan Chelsea di Anfield, serta gol penalti cepat di Final Liga Champions 2019 yang menebus kegagalan tahun sebelumnya sekaligus mengunci gelar juara Eropa keenam Liverpool.</p>
+            <div class="achievement-box">
+                <div class="achievement-title">Kesuksesan & Prestasi</div>
+                <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 1x Premier League (Mengakhiri puasa gelar 30 tahun), 1x Liga Champions, 1x FA Cup, 2x Piala Liga, 1x Piala Dunia Antarklub, 1x Piala Super Eropa.</p>
+                <p class="achievement-text"><strong>Kesuksesan Individu:</strong> 3x Golden Boot Premier League (Top Skor), 2x PFA Players' Player of the Year (2018, 2022), 2x FWA Footballer of the Year (2018, 2022), Rekor gol terbanyak dalam satu musim debut format 38 laga Premier League.</p>
+            </div>
+        </article>
+
+        <article class="transfer-card">
+            <h2 class="item-header"><span class="item-number">7.</span> Wayne Rooney (Everton ➡️ Man United)</h2>
+            <img src="images/rooney.jpg" alt="Wayne Rooney" class="player-image">
+            <p class="image-caption">© Manchester United / Getty Images</p>
+            <p class="description">Manchester United mendatangkan Wayne Rooney yang masih berusia 18 tahun dari Everton pada Agustus 2004 dengan biaya fantastis untuk seorang remaja sebesar £25,6 juta. Rooney langsung membuktikan bakat emasnya sejak hari pertama. Di bawah asuhan Sir Alex Ferguson, ia berevolusi dari penyerang muda yang agresif menjadi pemain serba bisa yang rela bermain di posisi mana pun demi kemenangan tim. Momen ikonik yang tidak akan pernah dilupakan adalah hat-trick sensasional di laga debutnya melawan Fenerbahce di UCL, serta gol salto legendaris ke gawang Manchester City pada tahun 2011 yang dinobatkan sebagai salah satu gol terbaik sepanjang sejarah Premier League.</p>
+            <div class="achievement-box">
+                <div class="achievement-title">Kesuksesan & Prestasi</div>
+                <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 5x Premier League, 1x Liga Champions, 1x Europa League, 1x FA Cup, 3x Piala Liga, 1x Piala Dunia Antarklub.</p>
+                <p class="achievement-text"><strong>Kesuksesan Individu:</strong> 253 gol (Top skor sepanjang masa Manchester United), 1x PFA Players' Player of the Year 2010, 1x FWA Footballer of the Year 2010.</p>
+            </div>
+        </article>
+
+        <article class="transfer-card">
+            <h2 class="item-header"><span class="item-number">6.</span> Luis Suárez (Liverpool ➡️ Barcelona)</h2>
+            <img src="images/suarez.jpg" alt="Luis Suarez" class="player-image">
+            <p class="image-caption">© FC Barcelona / Getty Images</p>
+            <p class="description">Barcelona menebus Luis Suárez dari Liverpool pada Juli 2014 dengan mahar £65 juta (€75 juta) meskipun sang pemain sedang menjalani sanksi larangan bermain akibat insiden di Piala Dunia. Setelah sanksinya berakhir, Suárez langsung beradaptasi dengan luar biasa dan membentuk kemitraan legendaris "MSN" bersama Lionel Messi dan Neymar. Ia menjadi penyerang tengah nomor 9 yang sempurna, memberikan kekuatan fisik dan ketajaman di lini depan. Momen ikonik utamanya adalah mencetak gol krusial di Final Liga Champions 2015 melawan Juventus untuk mengunci status Treble Winner, serta mencetak hat-trick di laga penentu gelar La Liga melawan Granada pada 2016.</p>
+            <div class="achievement-box">
+                <div class="achievement-title">Kesuksesan & Prestasi</div>
+                <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 4x La Liga, 1x Liga Champions, 4x Copa del Rey, 1x Piala Super Eropa, 1x Piala Dunia Antarklub (Termasuk 1x Treble Winner 2015).</p>
+                <p class="achievement-text"><strong>Kesuksesan Individu:</strong> 198 gol dari 283 laga (Top skor sepanjang masa ke-3 Barcelona), 1x Sepatu Emas Eropa (2016), 1x Pichichi Trophy (Mematahkan dominasi Messi-Ronaldo).</p>
+            </div>
+        </article>
+
+        <article class="transfer-card">
+            <h2 class="item-header"><span class="item-number">5.</span> Robert Lewandowski (Borussia Dortmund ➡️ Bayern Munchen)</h2>
+            <img src="images/lewandowski.jpg" alt="Robert Lewandowski" class="player-image">
+            <p class="image-caption">© FC Bayern München / Getty Images</p>
+            <p class="description">Salah satu bisnis transfer terbaik sepanjang masa terjadi pada Juli 2014 ketika Bayern Munchen mendapatkan Robert Lewandowski secara gratis (Free Transfer) setelah kontraknya di Dortmund habis. Di Allianz Arena, Lewandowski langsung menjadi mesin gol yang sangat konsisten dari musim ke musim. Ia menjadi tumpuan Bayern dalam mendominasi sepak bola Jerman dan Eropa. Momen ikonik yang mengguncang dunia adalah saat ia mencetak 5 gol hanya dalam waktu 9 menit setelah masuk sebagai pemain pengganti melawan Wolfsburg pada 2015, serta keberhasilannya menyamai dan melewati rekor gol satu musim legendaris Gerd Muller.</p>
+            <div class="achievement-box">
+                <div class="achievement-title">Kesuksesan & Prestasi</div>
+                <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 8x Bundesliga (beruntun), 1x Liga Champions, 3x DFB-Pokal, 4x DFL-Supercup, 1x Piala Super Eropa, 1x Piala Dunia Antarklub (Sextuple 2020).</p>
+                <p class="achievement-text"><strong>Kesuksesan Individu:</strong> 344 gol dari 375 laga, 2x FIFA Best Men's Player (2020, 2021), 1x UEFA Men's Player of the Year 2020, 7x Kicker Torjägerkanone (Top Skor Bundesliga), Rekor 41 gol dalam satu musim Bundesliga.</p>
+            </div>
+        </article>
+
+        <article class="transfer-card">
+            <h2 class="item-header"><span class="item-number">4.</span> Thierry Henry (Juventus ➡️ Arsenal)</h2>
+            <img src="images/henry.jpg" alt="Thierry Henry" class="player-image">
+            <p class="image-caption">© Arsenal FC / Getty Images</p>
+            <p class="description">Arsene Wenger menyelamatkan karier Thierry Henry yang meredup di Juventus pada Agustus 1999 dengan mahar £11 juta. Di Arsenal, Wenger mengubah posisi Henry dari seorang pemain sayap murni menjadi penyerang tengah yang mematikan. Henry berkembang menjadi striker paling ditakuti di Premier League dengan kombinasi kecepatan, teknik, dan penyelesaian akhir yang elegan. Momen ikonik yang paling diingat adalah gol solorun indahnya yang melewati seluruh pertahanan Tottenham Hotspur pada 2002, serta kepemimpinannya saat membawa Arsenal mencetak sejarah menjadi juara liga tanpa terkalahkan (The Invincibles) pada musim 2003/2004.</p>
+            <div class="achievement-box">
+                <div class="achievement-title">Kesuksesan & Prestasi</div>
+                <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 2x Premier League, 2x FA Cup, 2x Community Shield.</p>
+                <p class="achievement-text"><strong>Kesuksesan Individu:</strong> 228 gol (Top skor sepanjang masa Arsenal), 4x Golden Boot Premier League, 2x PFA Players' Player of the Year, 3x FWA Footballer of the Year.</p>
+            </div>
+        </article>
+
+        <article class="transfer-card">
+            <h2 class="item-header"><span class="item-number">3.</span> Karim Benzema (Lyon ➡️ Real Madrid)</h2>
+            <img src="images/benzema.jpg" alt="Karim Benzema" class="player-image">
+            <p class="image-caption">© Real Madrid CF / Getty Images</p>
+            <p class="description">Real Madrid mendatangkan Karim Benzema dari Lyon pada Juli 2009 dengan biaya €35 juta. Di awal kedatangannya, Benzema harus rela bermain di bawah bayang-bayang Cristiano Ronaldo dan sering mengorbankan ketajamannya demi membuka ruang bagi rekan-rekannya. Perjalanan kariernya berubah drastis setelah Ronaldo pergi pada 2018; Benzema bertransformasi menjadi pemimpin lini serang sekaligus kapten tim. Momen ikonik puncaknya terjadi pada musim 2021/2022, di mana ia mencetak hat-trick berturut-turut ke gawang PSG dan Chelsea di fase gugur Liga Champions, serta gol kemenangan dramatis melawan Manchester City yang menggendong Madrid ke tangga juara.</p>
+            <div class="achievement-box">
+                <div class="achievement-title">Kesuksesan & Prestasi</div>
+                <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 5x Liga Champions, 4x La Liga, 3x Copa del Rey, 4x Piala Super Spanyol, 4x Piala Super Eropa, 5x Piala Dunia Antarklub (Total 25 trofi).</p>
+                <p class="achievement-text"><strong>Kesuksesan Individu:</strong> 354 gol (Top skor sepanjang masa ke-2 klub), 1x Ballon d'Or 2022, 1x UEFA Men's Player of the Year 2022, 1x Pichichi Trophy (Top Skor La Liga).</p>
+            </div>
+        </article>
+
+        <article class="transfer-card">
+            <h2 class="item-header"><span class="item-number">2.</span> Diego Maradona (Barcelona ➡️ Napoli)</h2>
+            <img src="images/maradona.jpg" alt="Diego Maradona" class="player-image">
+            <p class="image-caption">© SSC Napoli / Getty Images</p>
+            <p class="description">Napoli mengejutkan dunia pada Juli 1984 dengan mendatangkan Diego Maradona lewat mahar £6,9 juta (€12 juta) yang menjadi rekor dunia saat itu. Napoli yang kala itu merupakan klub semenjana dari wilayah selatan Italia yang miskin, langsung berubah menjadi kekuatan baru yang ditakuti. Maradona memikul beban tim sendirian dan berhasil mendobrak dominasi klub-klub kaya utara seperti Juventus dan AC Milan. Momen ikonik paling bersejarahnya adalah ketika ia mencetak gol-gol krusial yang memastikan gelar juara liga pertama Napoli pada 1987, yang memicu perayaan liar di seluruh kota Naples, serta performa magisnya di kompetisi Eropa saat menjuarai UEFA Cup 1989.</p>
+            <div class="achievement-box">
+                <div class="achievement-title">Kesuksesan & Prestasi</div>
+                <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 2x Serie A, 1x Coppa Italia, 1x UEFA Cup, 1x Supercoppa Italiana.</p>
+                <p class="achievement-text"><strong>Kesuksesan Individu:</strong> Menjadi ikon abadi klub, nomor punggung 10 dipensiunkan, dan mendapat status dewa sepak bola di Naples.</p>
+            </div>
+        </article>
+
+        <article class="transfer-card">
+            <h2 class="item-header"><span class="item-number">1.</span> Cristiano Ronaldo (Man United ➡️ Real Madrid)</h2>
+            <img src="images/ronaldo.jpg" alt="Cristiano Ronaldo" class="player-image">
+            <p class="image-caption">© Real Madrid CF / Getty Images</p>
+            <p class="description">Pada Juli 2009, Real Madrid memecahkan rekor transfer dunia dengan menebus Cristiano Ronaldo seharga £80 juta (€94 juta). Kepindahannya menandai era baru persaingan sepak bola modern. Ronaldo langsung bertransformasi menjadi mesin gol yang menakutkan dan menjadi ujung tombak utama Madrid untuk meruntuhkan dominasi Barcelona era Pep Guardiola. Selama 9 musim di Santiago Bernabeu, ia menunjukkan konsistensi luar biasa dengan mencetak lebih banyak gol daripada jumlah penampilannya. Momen ikonik terbaiknya termasuk gol sundulan terbang melawan Manchester United di UCL, salto spektakuler di markas Juventus pada 2018, serta hat-trick legendaris di fase gugur Liga Champions yang membawa Madrid meraih Three-peat (juara 3 kali beruntun).</p>
+            <div class="achievement-box">
+                <div class="achievement-title">Kesuksesan & Prestasi</div>
+                <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 4x Liga Champions, 2x La Liga, 2x Copa del Rey, 2x Piala Super Eropa, 2x Piala Super Spanyol, 3x Piala Dunia Antarklub.</p>
+                <p class="achievement-text"><strong>Kesuksesan Individu:</strong> 450 gol dari 438 laga (Top skor sepanjang masa klub), 4x Ballon d'Or (di Madrid), 3x Sepatu Emas Eropa, 7x Top Skor Liga Champions.</p>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 100%BallKnowledge - Tugas Kelompok Praktikum Pemrograman Web</p>
+    </footer>
+
+</body>
+</html>
