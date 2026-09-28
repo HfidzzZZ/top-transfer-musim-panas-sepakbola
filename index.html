@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Masterpiece Bursa Transfer: 10 Rekrutan Musim Panas Terbaik Sepanjang Masa</title>
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
     <style>
         * {
             box-sizing: border-box;
@@ -21,51 +29,36 @@
             line-height: 1.6;
         }
 
-        header {
-            background-color: #ffffff;
+        .custom-navbar {
+            background-color: #ffffff !important;
             border-bottom: 2px solid #e2e8f0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .header-container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
         }
 
         .logo {
             font-family: 'Poppins', sans-serif;
-            font-size: 26px;
+            font-size: 24px;
             font-weight: 900;
-            color: #0f172a;
+            color: #0f172a !important;
             text-decoration: none;
             letter-spacing: -0.5px;
         }
 
-        .nav-links {
-            display: flex;
-            gap: 12px;
-        }
-
         .nav-btn {
             background-color: #0f172a;
-            color: #ffffff;
-            padding: 8px 16px;
+            color: #ffffff !important;
+            padding: 8px 18px;
             border-radius: 20px;
             text-decoration: none;
             font-size: 13px;
             font-weight: 600;
             transition: all 0.2s ease;
+            display: inline-block;
+            text-align: center;
         }
 
         .nav-btn:hover {
             background-color: #22c55e;
-            color: #ffffff;
+            color: #ffffff !important;
         }
 
         .hero-banner {
@@ -226,19 +219,26 @@
 </head>
 <body>
 
-    <header>
-        <div class="header-container">
-            <a href="index.html" class="logo">100%BallKnowledge</a>
-            <nav class="nav-links">
-                <a href="liga-indonesia.html" class="nav-btn">Liga Indonesia</a>
-                <a href="liga-eropa.html" class="nav-btn">Liga Eropa</a>
-            </nav>
-        </div>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md custom-navbar">
+            <div class="container" style="max-width: 1100px;">
+                <a class="navbar-brand logo" href="index.html">100%BallKnowledge</a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarMain">
+                    <div class="navbar-nav gap-2 pt-3 pt-md-0">
+                        <a href="liga-indonesia.html" class="nav-btn">Liga Indonesia</a>
+                        <a href="liga-eropa.html" class="nav-btn">Liga Eropa</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <section class="hero-banner">
         <div class="hero-container">
-            <span class="category-badge">FOOTBALL</span>
+            <span class="category-badge badge bg-dark text-white p-2">FOOTBALL</span>
             <h1 class="hero-title">MASTERPIECE BURSA TRANSFER: 10 REKRUTAN MUSIM PANAS TERBAIK SEPANJANG MASA</h1>
             <p class="hero-subtitle">Peringkat sepuluh investasi bursa transfer paling sukses sepanjang sejarah</p>
             <p class="hero-date">Updated on Sep 18, 2026</p>
@@ -251,8 +251,7 @@
             <h2 class="item-header"><span class="item-number">10.</span> Andrea Pirlo (AC Milan ➡️ Juventus)</h2>
             <img src="images/pirlo.jpg" alt="Andrea Pirlo" class="player-image">
             <p class="image-caption">© Juventus FC / Getty Images</p>
-            <p class="description">Setelah dianggap sudah habis oleh AC Milan, Andrea Pirlo pindah ke Juventus secara gratis (Free Transfer) pada Juli 2011. Kepindahan ini menjadi salah satu penyesalan terbesar Milan dan keuntungan luar biasa bagi Juventus. Pirlo langsung didapuk menjadi jenderal lini tengah dalam taktik Antonio Conte, mengubah Juventus yang sebelumnya finis di peringkat ke-7 menjadi tim yang tak terkalahkan sepanjang musim. Momen ikonik terbaiknya adalah umpan-umpan vertikalnya yang membelah pertahanan lawan, gol tendangan bebas jarak jauh yang magis, serta ketenangannya mendikte permainan yang mengawali era dominasi absolut Juventus di Italia.
-            </p>
+            <p class="description">Setelah dianggap sudah habis oleh AC Milan, Andrea Pirlo pindah ke Juventus secara gratis (Free Transfer) pada Juli 2011. Kepindahan ini menjadi salah satu penyesalan terbesar Milan dan keuntungan luar biasa bagi Juventus. Pirlo langsung didapuk menjadi jenderal lini tengah dalam taktik Antonio Conte, mengubah Juventus yang sebelumnya finis di peringkat ke-7 menjadi tim yang tak terkalahkan sepanjang musim. Momen ikonik terbaiknya adalah umpan-umpan vertikalnya yang membelah pertahanan lawan, gol tendangan bebas jarak jauh yang magis, serta ketenangannya mendikte permainan yang mengawali era dominasi absolut Juventus di Italia.</p>
             <p class="description">Fakta Menarik: Di luar sepak bola pirlo adalah seorang penikmat dan pebisnis anggur. Ia memiliki kebun anggur sendiri di italia yang mampu memproduksi belasan ribu botol setiap tahunnya.</p>
             <div class="achievement-box">
                 <div class="achievement-title">Kesuksesan & Prestasi</div>
@@ -292,7 +291,7 @@
             <img src="images/rooney.jpg" alt="Wayne Rooney" class="player-image">
             <p class="image-caption">© Manchester United / Getty Images</p>
             <p class="description">Manchester United mendatangkan Wayne Rooney yang masih berusia 18 tahun dari Everton pada Agustus 2004 dengan biaya fantastis untuk seorang remaja sebesar £25,6 juta. Rooney langsung membuktikan bakat emasnya sejak hari pertama. Di bawah asuhan Sir Alex Ferguson, ia berevolusi dari penyerang muda yang agresif menjadi pemain serba bisa yang rela bermain di posisi mana pun demi kemenangan tim. Momen ikonik yang tidak akan pernah dilupakan adalah hat-trick sensasional di laga debutnya melawan Fenerbahce di UCL, serta gol salto legendaris ke gawang Manchester City pada tahun 2011 yang dinobatkan sebagai salah satu gol terbaik sepanjang sejarah Premier League.</p>
-            <p class="description">Fakta Menarik: menjadi pemain termuda yang membela dan mencetak gol untuk inggris di usia 17 tahun pada 2003. </p>
+            <p class="description">Fakta Menarik: menjadi pemain termuda yang membela dan mencetak gol untuk inggris di usia 17 tahun pada 2003.</p>
             <div class="achievement-box">
                 <div class="achievement-title">Kesuksesan & Prestasi</div>
                 <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 5x Premier League, 1x Liga Champions, 1x Europa League, 1x FA Cup, 3x Piala Liga, 1x Piala Dunia Antarklub.</p>
@@ -357,7 +356,7 @@
             <img src="images/maradona.jpg" alt="Diego Maradona" class="player-image">
             <p class="image-caption">© SSC Napoli / Getty Images</p>
             <p class="description">Napoli mengejutkan dunia pada Juli 1984 dengan mendatangkan Diego Maradona lewat mahar £6,9 juta (€12 juta) yang menjadi rekor dunia saat itu. Napoli yang kala itu merupakan klub semenjana dari wilayah selatan Italia yang miskin, langsung berubah menjadi kekuatan baru yang ditakuti. Maradona memikul beban tim sendirian dan berhasil mendobrak dominasi klub-klub kaya utara seperti Juventus dan AC Milan. Momen ikonik paling bersejarahnya adalah ketika ia mencetak gol-gol krusial yang memastikan gelar juara liga pertama Napoli pada 1987, yang memicu perayaan liar di seluruh kota Naples, serta performa magisnya di kompetisi Eropa saat menjuarai UEFA Cup 1989.</p>
-            <p class="description">Fakta Menarik: Tumbuh di lingkungan sangat miskin di pinggiran Buenos Aires dan mulai mahir mengolah bola di jalanan berlumpur</p>
+            <p class="description">Fakta Menarik: Tumbuh di lingkungan sangat miskin di pinggiran Buenos Aires dan mulai mahir mengolah bola di jalanan berlumpur.</p>
             <div class="achievement-box">
                 <div class="achievement-title">Kesuksesan & Prestasi</div>
                 <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 2x Serie A, 1x Coppa Italia, 1x UEFA Cup, 1x Supercoppa Italiana.</p>
@@ -370,7 +369,7 @@
             <img src="images/ronaldo.jpg" alt="Cristiano Ronaldo" class="player-image">
             <p class="image-caption">© Real Madrid CF / Getty Images</p>
             <p class="description">Pada Juli 2009, Real Madrid memecahkan rekor transfer dunia dengan menebus Cristiano Ronaldo seharga £80 juta (€94 juta). Kepindahannya menandai era baru persaingan sepak bola modern. Ronaldo langsung bertransformasi menjadi mesin gol yang menakutkan dan menjadi ujung tombak utama Madrid untuk meruntuhkan dominasi Barcelona era Pep Guardiola. Selama 9 musim di Santiago Bernabeu, ia menunjukkan konsistensi luar biasa dengan mencetak lebih banyak gol daripada jumlah penampilannya. Momen ikonik terbaiknya termasuk gol sundulan terbang melawan Manchester United di UCL, salto spektakuler di markas Juventus pada 2018, serta hat-trick legendaris di fase gugur Liga Champions yang membawa Madrid meraih Three-peat (juara 3 kali beruntun).</p>
-            <p class="description">Fakta Menarik:  Untuk menghormati sang legenda, Bandara Internasional Madeira di Portugal resmi berganti nama menjadi Bandara Cristiano Ronaldo</p>
+            <p class="description">Fakta Menarik: Untuk menghormati sang legenda, Bandara Internasional Madeira di Portugal resmi berganti nama menjadi Bandara Cristiano Ronaldo.</p>
             <div class="achievement-box">
                 <div class="achievement-title">Kesuksesan & Prestasi</div>
                 <p class="achievement-text"><strong>Kesuksesan Klub:</strong> 4x Liga Champions, 2x La Liga, 2x Copa del Rey, 2x Piala Super Eropa, 2x Piala Super Spanyol, 3x Piala Dunia Antarklub.</p>
@@ -379,11 +378,6 @@
         </article>
 
     </main>
-    </main>
-
-
-
-<footer>
 
     <footer>
         <p>&copy; 2026 100%BallKnowledge - Tugas Kelompok Praktikum Pemrograman Web</p>
